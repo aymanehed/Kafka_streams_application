@@ -43,11 +43,12 @@ return pageEvent;
                     ReadOnlyWindowStore<String,Long> windowStore=interactiveQueryService.getQueryableStore("page-count", QueryableStoreTypes.windowStore());
                     Instant now = Instant.now();
                     Instant from = now.minusMillis(5000);
-                    KeyValueIterator<Windowed<String>,Long> fetchAll=windowStore.fetchAll(from,now);
-                    while(fetchAll.hasNext()){
-                        KeyValue<Windowed<String>,Long> next=fetchAll.next();
+                    KeyValueIterator<Windowed<String>,Long> fetchall=windowStore.all();
+                    while(fetchall.hasNext()){
+                        KeyValue<Windowed<String>,Long> next=fetchall.next();
                         stringLongMap.put(next.key.key(), next.value);
                     }
+
                     return stringLongMap;
                 }).share();
 }
