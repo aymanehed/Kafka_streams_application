@@ -14,7 +14,7 @@
     <name>Kafka-spring-cloud-streams</name>
     <description>Kafka-spring-cloud-streams</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>17</java.version>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
     </properties>
     <dependencies>
