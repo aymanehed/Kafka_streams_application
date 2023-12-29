@@ -13,6 +13,7 @@ Event streaming is applied to a wide variety of use cases across a plethora of i
 ## About the application
 ## What is Kafka ?
 Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
+
 <img width="841" alt="kafka" src="https://github.com/aymanehed/Kafka_streams_application/assets/93987581/e73faf0f-c402-43a3-8203-5b9ff2e5c46e">
 
 ## Zookeeper
