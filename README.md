@@ -49,5 +49,5 @@ Kafka Streams is a client library for building applications and microservices, w
 <img width="271" alt="vis2" src="https://github.com/aymanehed/Kafka_streams_application/assets/93987581/09494a96-0ad8-441b-8616-fbca383385c9">
 
 ### Visualization 
-<img width="447" alt="vis1" src="https://github.com/aymanehed/Kafka_streams_application/assets/93987581/ae4c62f8-038e-46db-84b3-6832a750d10c">
+<img width="453" alt="Screenshot 2024-01-03 152733" src="https://github.com/aymanehed/Kafka_streams_application/assets/93987581/1dd78fa3-3c39-4416-aa51-35e0d20d751f">
 
